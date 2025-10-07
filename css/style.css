@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    margin-right: 10px;
+}
+
 /********************
 **UTILITIES
 *********************/
@@ -35,7 +39,6 @@ a {
 .color-white {
     color: white;
 }
-
 
 
 /* FLEXANDO */
@@ -59,13 +62,25 @@ a {
     justify-content: space-evenly;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 /********************
 **HEADER
 *********************/
 header {
     height: 60px;
     background-color: orangered;
+    /* position: fixed; */
+    width: 100%;
+
+    /* DEBUG */
+    margin-bottom: 50px;
 }
+
+
+
 
 /********************
 **MAIN
@@ -76,6 +91,12 @@ header {
 **FOOTER
 *********************/
 
+footer {
+    height: 80px;
+    width: 100%;
+    margin-top: 50px;
+}
+
 
 /********************
 **UNCOMMON
@@ -84,4 +105,15 @@ header {
 .logo {
     max-width: 20%;
     margin-top: 5px;
+}
+
+.card {
+    
+
+    /* DEBUG */
+    background-color: yellow;
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    gap: 10px;
 }
