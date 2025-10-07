@@ -66,8 +66,8 @@ li {
     flex-wrap: wrap;
 }
 
-.gap10 {
-    gap: 10px;
+.gap30 {
+    gap: 30px;
 }
 
 .column {
@@ -118,11 +118,12 @@ footer {
 
 .card {
     position: relative;
+    width: 30%;
 
     /* DEBUG */
+
     /* background-color: yellow; */
-    width: 300px;
-    height: 500px;
+    /* height: 500px; */
     /* border: 2px solid black; */
 }
 
@@ -166,6 +167,4 @@ button {
     margin-top: 20px;
 }
 
-.card1:hover {
-    
-}
+
