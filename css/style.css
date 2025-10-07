@@ -1,5 +1,5 @@
 /********************
-**RESET 
+**RESET
 *********************/
 * {
     margin: 0;
@@ -66,6 +66,10 @@ li {
     flex-wrap: wrap;
 }
 
+.gap10 {
+    gap: 10px;
+}
+
 /********************
 **HEADER
 *********************/
@@ -108,12 +112,11 @@ footer {
 }
 
 .card {
-    
+
 
     /* DEBUG */
     background-color: yellow;
     width: 300px;
     height: 500px;
     border: 2px solid black;
-    gap: 10px;
 }
