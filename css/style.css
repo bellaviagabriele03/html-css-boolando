@@ -85,7 +85,7 @@ header {
     /* DEBUG */
     margin-bottom: 50px;
     /* position: fixed; */
-
+    /* position: sticky;*/
     
 }
 
@@ -95,7 +95,9 @@ header {
 /********************
 **MAIN
 *********************/
-
+main {
+   
+}
 
 /********************
 **FOOTER
