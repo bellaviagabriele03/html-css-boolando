@@ -1,0 +1,87 @@
+/********************
+**RESET 
+*********************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/********************
+**UTILITIES
+*********************/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.color-white {
+    color: white;
+}
+
+
+
+/* FLEXANDO */
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+/********************
+**HEADER
+*********************/
+header {
+    height: 60px;
+    background-color: orangered;
+}
+
+/********************
+**MAIN
+*********************/
+
+
+/********************
+**FOOTER
+*********************/
+
+
+/********************
+**UNCOMMON
+*********************/
+
+.logo {
+    max-width: 20%;
+    margin-top: 5px;
+}
