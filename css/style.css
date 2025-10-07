@@ -176,13 +176,13 @@ button {
 }
 
 
-#img-absolute {
+.img-absolute {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-#img-absolute:hover {
+.img-absolute:hover {
     width: 0;
     height: 0;
 }
