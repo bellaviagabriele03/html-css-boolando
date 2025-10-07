@@ -70,6 +70,10 @@ li {
     gap: 10px;
 }
 
+.column {
+    flex-direction: column;
+}
+
 /********************
 **HEADER
 *********************/
@@ -112,11 +116,35 @@ footer {
 }
 
 .card {
-
+    position: relative;
 
     /* DEBUG */
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 300px;
     height: 500px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+.discount {
+    background-color: red;
+    position: absolute;
+    bottom: 100px;
+
+    
+}
+
+.nameplate {
+    background-color: green;
+    position: absolute;
+    bottom: 100px;
+    left: 45px;
+}
+
+button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
 }
