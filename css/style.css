@@ -80,11 +80,13 @@ li {
 header {
     height: 60px;
     background-color: orangered;
-    /* position: fixed; */
     width: 100%;
 
     /* DEBUG */
     margin-bottom: 50px;
+    /* position: fixed; */
+
+    
 }
 
 
@@ -168,3 +170,13 @@ button {
 }
 
 
+#img-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#img-absolute:hover {
+    width: 0;
+    height: 0;
+}
